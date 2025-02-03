@@ -9,7 +9,7 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "Coralogix", type: .dynamic, targets: ["Coralogix"])
+        .library(name: "Coralogix", type: .static, targets: ["Coralogix"])
     ],
     dependencies: [
         //.package(url: "https://github.com/open-telemetry/opentelemetry-swift", from: "1.9.2"),
